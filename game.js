@@ -33,7 +33,7 @@ let questions = [
             choice2: "Other arrays",
             choice3: "Booleans",
             choice4: "All of the above",
-            Answer: 4,
+            answer: 4,
         },
         {
             question: "String values in jasvascript will be contained in which of the following when being assigned to variables?",
@@ -67,7 +67,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/end.html')
+        return window.location.assign("end.html")
     }
 
     questionCounter++
