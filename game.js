@@ -56,6 +56,7 @@ let questions = [
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 5
 
+
 startGame = () => {
     questionCounter = 0 
     score = 0
@@ -116,7 +117,25 @@ incrementScore = num => {
     scoreText.innerText = score
 }
 
-startGame()
+startGame();
+
+//function startGameTimer () {
+  //  if (test) { console.log("--- startGameTimer ---"); }
+    //setGameTime();
+  
+    //gameInterval = setInterval(function() {
+      //gameSecElapsed++; 
+      //questionSecElapsed++; 
+      //renderTime();
+    //}, 1000);
+ // }
+
+//function stopTime() {
+  //  if (test) { console.log("--- stopTime --- ");}
+    //gameSeconds = 0;
+    //questionSeconds = 0;
+    //clearInterval(gameInterval);
+  //}
 
 
 
